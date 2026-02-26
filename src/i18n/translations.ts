@@ -43,32 +43,71 @@ export const translations = {
       downloadProfile: 'Download Company Profile',
     },
     solutions: {
-      sectionTitle: 'Our Solutions',
+      sectionTitle: 'Featured Products',
       sectionDesc:
-        'We provide a comprehensive range of solar energy services, from initial feasibility studies to full-scale installation and maintenance.',
-      readMore: 'Read More',
-      items: [
+        'RPS focuses on professional photovoltaic distribution and reliable product solutions for installers, companies, and self-consumption projects.',
+      distributorLine: 'Professional solar panel distributor',
+      serviceLine: 'RPS Photovoltaic & Service',
+      badges: ['ANME approved installer', 'Partner for installers & solar companies', 'Reliable solutions for projects and self-consumption'],
+      products: [
         {
-          title: 'Industrial Solar',
-          description:
-            'Large-scale photovoltaic systems designed for factories, warehouses, and industrial complexes to drastically reduce energy overhead.',
+          title: '450W Double Glass Panel',
+          brand: 'Canadian Solar',
+          image: '/CanadianSolar.png',
+          overview:
+            'A high-efficiency 450W photovoltaic module designed for durability and long-term performance, suitable for commercial installations and large solar projects.',
+          keyFeatures: [
+            'N-Type TOPCon cells with low degradation over time (LID/LeTID resistant).',
+            'Double-glass construction for stronger protection against weather and environmental stress.',
+            'High mechanical load tolerance: 5400 Pa front / 2400 Pa rear.',
+            'Anti-PID protection to prevent voltage-induced performance loss.',
+          ],
+          electricalSpecs: [
+            { label: 'Vmp', value: '44.8 V' },
+            { label: 'Imp', value: '10.05 A' },
+            { label: 'Voc', value: '52.9 V' },
+            { label: 'Isc', value: '10.68 A' },
+          ],
+          bestFor:
+            'Reliable industrial or residential systems where durability and stability are priorities.',
         },
         {
-          title: 'Commercial Projects',
-          description:
-            'Custom solar solutions for office buildings, retail centers, and public institutions looking for sustainable energy independence.',
-        },
-        {
-          title: 'Residential Systems',
-          description:
-            'High-efficiency rooftop solar installations that provide homeowners with clean energy and significant long-term savings.',
-        },
-        {
-          title: 'Energy Storage',
-          description:
-            'Advanced battery storage solutions that ensure continuous power supply and optimize energy consumption patterns.',
+          title: '635W Bifacial TigerNeo Panel',
+          brand: 'JinkoSolar',
+          image: '/jinko.jpg',
+          overview:
+            'A premium high-power module delivering 635W output with bifacial technology, designed for maximum energy yield in large-scale installations.',
+          keyFeatures: [
+            'N-Type TOPCon technology for higher efficiency and slower aging.',
+            'Bifacial dual-glass design generating power from both front and back.',
+            'Enhanced mechanical load: 5400 Pa front / 2400 Pa rear.',
+            'HOT 3.0 technology for improved reliability and performance stability.',
+            'SMBB technology for better current collection and lower resistance losses.',
+            'Anti-PID protection for long-term efficiency preservation.',
+          ],
+          electricalSpecs: [
+            { label: 'Vmp', value: '47.70 V' },
+            { label: 'Imp', value: '13.31 A' },
+            { label: 'Voc', value: '56.22 V' },
+            { label: 'Isc', value: '13.92 A' },
+          ],
+          bestFor:
+            'Utility-scale solar farms or projects where maximum power density and energy yield are critical.',
         },
       ],
+      comparison: {
+        title: 'Quick Comparison',
+        headers: ['Feature', 'Canadian Solar 450W', 'Jinko TigerNeo 635W'],
+        rows: [
+          ['Power', '450W', '635W'],
+          ['Cell Type', 'N-Type TOPCon', 'N-Type TOPCon'],
+          ['Design', 'Double glass', 'Bifacial dual glass'],
+          ['Efficiency Potential', 'High', 'Very high'],
+          ['Ideal Use', 'Commercial / Residential', 'Utility-scale / large projects'],
+        ],
+      },
+      bestForLabel: 'Best for',
+      cta: 'Contact RPS for Pricing',
     },
     benefits: {
       sectionTitle: 'Why Choose Us',
@@ -242,32 +281,71 @@ export const translations = {
       downloadProfile: "Télécharger le profil de l'entreprise",
     },
     solutions: {
-      sectionTitle: 'Nos solutions',
+      sectionTitle: 'Produits mis en avant',
       sectionDesc:
-        'Nous proposons une gamme complète de services solaires, des études de faisabilité à l’installation complète et à la maintenance.',
-      readMore: 'Voir plus',
-      items: [
+        'RPS se concentre sur la distribution photovoltaïque professionnelle et des solutions produits fiables pour installateurs, sociétés et projets en autoconsommation.',
+      distributorLine: 'Distributeur professionnel de panneaux solaires',
+      serviceLine: 'RPS Photovoltaïque et Service',
+      badges: ['Installateur agréé ANME', 'Partenaire installateurs & sociétés solaires', 'Solutions fiables pour projets et autoconsommation'],
+      products: [
         {
-          title: 'Solaire industriel',
-          description:
-            'Systèmes photovoltaïques à grande échelle pour usines, entrepôts et complexes industriels afin de réduire les coûts énergétiques.',
+          title: 'Panneau 450W Double Verre',
+          brand: 'Canadian Solar',
+          image: '/CanadianSolar.png',
+          overview:
+            'Module photovoltaïque haute efficacité de 450W conçu pour la durabilité et la performance à long terme, idéal pour installations commerciales et grands projets solaires.',
+          keyFeatures: [
+            'Cellules N-Type TOPCon : faible dégradation dans le temps (résistant LID/LeTID).',
+            'Construction double verre : meilleure protection contre les intempéries et le stress environnemental.',
+            'Charge mécanique élevée : 5400 Pa face avant / 2400 Pa face arrière.',
+            'Protection anti-PID : évite les pertes de puissance liées à la dégradation induite par la tension.',
+          ],
+          electricalSpecs: [
+            { label: 'Vmp', value: '44.8 V' },
+            { label: 'Imp', value: '10.05 A' },
+            { label: 'Voc', value: '52.9 V' },
+            { label: 'Isc', value: '10.68 A' },
+          ],
+          bestFor:
+            'Systèmes industriels ou résidentiels fiables où la durabilité et la stabilité sont prioritaires.',
         },
         {
-          title: 'Projets commerciaux',
-          description:
-            'Solutions solaires sur mesure pour bureaux, centres commerciaux et institutions publiques.',
-        },
-        {
-          title: 'Systèmes résidentiels',
-          description:
-            'Installations solaires de toiture à haut rendement pour des économies durables.',
-        },
-        {
-          title: 'Stockage d’énergie',
-          description:
-            'Solutions avancées de batteries pour assurer une alimentation continue et optimiser la consommation.',
+          title: 'Panneau 635W Bifacial TigerNeo',
+          brand: 'JinkoSolar',
+          image: '/jinko.jpg',
+          overview:
+            'Module premium haute puissance de 635W avec technologie bifaciale, conçu pour maximiser le rendement énergétique sur les grandes installations.',
+          keyFeatures: [
+            'Technologie N-Type TOPCon : meilleure efficacité et vieillissement plus lent.',
+            'Design bifacial double verre : production d’énergie sur les deux faces.',
+            'Charge mécanique renforcée : 5400 Pa face avant / 2400 Pa face arrière.',
+            'Technologie HOT 3.0 : fiabilité et stabilité de performance améliorées.',
+            'Technologie SMBB : meilleure collecte du courant et pertes par résistance réduites.',
+            'Protection anti-PID : préservation de l’efficacité à long terme.',
+          ],
+          electricalSpecs: [
+            { label: 'Vmp', value: '47.70 V' },
+            { label: 'Imp', value: '13.31 A' },
+            { label: 'Voc', value: '56.22 V' },
+            { label: 'Isc', value: '13.92 A' },
+          ],
+          bestFor:
+            'Fermes solaires utilitaires ou projets où la densité de puissance et le rendement sont critiques.',
         },
       ],
+      comparison: {
+        title: 'Comparatif rapide',
+        headers: ['Critère', 'Canadian Solar 450W', 'Jinko TigerNeo 635W'],
+        rows: [
+          ['Puissance', '450W', '635W'],
+          ['Type de cellule', 'N-Type TOPCon', 'N-Type TOPCon'],
+          ['Conception', 'Double verre', 'Bifacial double verre'],
+          ['Potentiel de rendement', 'Élevé', 'Très élevé'],
+          ['Usage idéal', 'Commercial / Résidentiel', 'Utility-scale / grands projets'],
+        ],
+      },
+      bestForLabel: 'Idéal pour',
+      cta: 'Contacter RPS pour le tarif',
     },
     benefits: {
       sectionTitle: 'Pourquoi nous choisir',
@@ -441,28 +519,71 @@ export const translations = {
       downloadProfile: 'تحميل ملف الشركة',
     },
     solutions: {
-      sectionTitle: 'حلولنا',
+      sectionTitle: 'المنتجات الأساسية',
       sectionDesc:
-        'نقدم مجموعة متكاملة من خدمات الطاقة الشمسية من دراسة الجدوى إلى التركيب الكامل والصيانة.',
-      readMore: 'اقرأ المزيد',
-      items: [
+        'تركّز RPS على التوزيع الاحترافي للألواح الشمسية وتقديم حلول موثوقة للمركّبين والشركات ومشاريع الاستهلاك الذاتي.',
+      distributorLine: 'موزّع محترف للألواح الشمسية',
+      serviceLine: 'RPS Photovoltaïque et Service',
+      badges: ['مركّب معتمد من ANME', 'شريك للمركّبين والشركات الشمسية', 'حلول موثوقة للمشاريع والاستهلاك الذاتي'],
+      products: [
         {
-          title: 'الطاقة الشمسية الصناعية',
-          description: 'أنظمة كهروضوئية واسعة النطاق للمصانع والمخازن والمجمعات الصناعية لتقليل تكاليف الطاقة.',
+          title: 'لوح 450 واط زجاج مزدوج',
+          brand: 'Canadian Solar',
+          image: '/CanadianSolar.png',
+          overview:
+            'وحدة كهروضوئية عالية الكفاءة بقدرة 450 واط مصممة للمتانة والأداء طويل المدى، مناسبة للتركيبات التجارية والمشاريع الشمسية الكبيرة.',
+          keyFeatures: [
+            'خلايا N-Type TOPCon مع تدهور منخفض بمرور الوقت (مقاومة LID/LeTID).',
+            'تصميم زجاج مزدوج لحماية أقوى ضد الطقس والظروف البيئية.',
+            'تحمّل ميكانيكي عالٍ: 5400 باسكال أمامي / 2400 باسكال خلفي.',
+            'حماية Anti-PID لمنع فقدان القدرة بسبب التدهور الناتج عن الجهد.',
+          ],
+          electricalSpecs: [
+            { label: 'Vmp', value: '44.8 V' },
+            { label: 'Imp', value: '10.05 A' },
+            { label: 'Voc', value: '52.9 V' },
+            { label: 'Isc', value: '10.68 A' },
+          ],
+          bestFor:
+            'أنظمة صناعية أو سكنية موثوقة عندما تكون المتانة والاستقرار أولوية.',
         },
         {
-          title: 'المشاريع التجارية',
-          description: 'حلول شمسية مخصصة للمكاتب ومراكز البيع والمؤسسات العامة.',
-        },
-        {
-          title: 'الأنظمة السكنية',
-          description: 'تركيبات شمسية منزلية عالية الكفاءة لتوفير طويل الأمد.',
-        },
-        {
-          title: 'تخزين الطاقة',
-          description: 'حلول بطاريات متقدمة لضمان استمرارية الطاقة وتحسين الاستهلاك.',
+          title: 'لوح 635 واط Bifacial TigerNeo',
+          brand: 'JinkoSolar',
+          image: '/jinko.jpg',
+          overview:
+            'وحدة ممتازة عالية القدرة بخرج 635 واط مع تقنية ثنائية الوجه، مصممة لتحقيق أعلى مردود طاقي في المشاريع واسعة النطاق.',
+          keyFeatures: [
+            'تقنية N-Type TOPCon لكفاءة أعلى وتقدّم أبطأ في التقادم.',
+            'تصميم ثنائي الوجه بزجاج مزدوج لتوليد الطاقة من الجهتين.',
+            'تحمّل ميكانيكي محسّن: 5400 باسكال أمامي / 2400 باسكال خلفي.',
+            'تقنية HOT 3.0 لتحسين الموثوقية واستقرار الأداء.',
+            'تقنية SMBB لتحصيل تيار أفضل وخسائر مقاومة أقل.',
+            'حماية Anti-PID للحفاظ على الكفاءة على المدى الطويل.',
+          ],
+          electricalSpecs: [
+            { label: 'Vmp', value: '47.70 V' },
+            { label: 'Imp', value: '13.31 A' },
+            { label: 'Voc', value: '56.22 V' },
+            { label: 'Isc', value: '13.92 A' },
+          ],
+          bestFor:
+            'محطات شمسية كبيرة أو مشاريع تتطلب كثافة قدرة ومردود طاقي مرتفعين.',
         },
       ],
+      comparison: {
+        title: 'مقارنة سريعة',
+        headers: ['الميزة', 'Canadian Solar 450W', 'Jinko TigerNeo 635W'],
+        rows: [
+          ['القدرة', '450W', '635W'],
+          ['نوع الخلايا', 'N-Type TOPCon', 'N-Type TOPCon'],
+          ['التصميم', 'زجاج مزدوج', 'ثنائي الوجه زجاج مزدوج'],
+          ['إمكانات الكفاءة', 'مرتفعة', 'مرتفعة جدًا'],
+          ['الاستخدام المثالي', 'تجاري / سكني', 'مشاريع كبرى / Utility-scale'],
+        ],
+      },
+      bestForLabel: 'مناسب لـ',
+      cta: 'تواصل مع RPS لمعرفة الأسعار',
     },
     benefits: {
       sectionTitle: 'لماذا نحن',
