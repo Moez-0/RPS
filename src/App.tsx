@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import HomePage from '@/src/pages/HomePage';
 import NewsPage from '@/src/pages/NewsPage';
+import WhatsAppButton from '@/src/components/WhatsAppButton';
 
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
@@ -35,6 +36,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTopOnRouteChange />
+      <WhatsAppButton />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/news" element={<NewsPage />} />
