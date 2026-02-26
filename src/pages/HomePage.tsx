@@ -14,7 +14,7 @@ import { Locale, translations } from '@/src/i18n/translations';
 export default function HomePage() {
   const [locale, setLocale] = useState<Locale>(() => {
     const saved = localStorage.getItem('rps_locale');
-    return saved === 'en' || saved === 'fr' || saved === 'ar' ? saved : 'en';
+    return saved === 'en' || saved === 'fr' || saved === 'ar' ? saved : 'fr';
   });
   const t = useMemo(() => translations[locale], [locale]);
   const isArabic = locale === 'ar';
